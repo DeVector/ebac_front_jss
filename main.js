@@ -6,7 +6,12 @@ formExercise.addEventListener('submit', function(e){
     let formValidation = false
     e.preventDefault();
 
-    formValidation = validarCampos(numberA.value, numberB.value);
+    let numA, numB;
+
+    numA = parseInt(numberA.value);
+    numB = parseInt(numberB.value);
+
+    formValidation = validarCampos(numA, numB);
 
     let mensageSucess = `O número digitado ${numberA.value} está correto e é maior que ${numberB.value}`;
     let mensageUnsuccess = `O número digitado ${numberA.value} é menor ou igual a ${numberB.value}`
