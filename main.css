@@ -16,7 +16,8 @@ h1{
 }
 
 form,
-footer {
+footer,
+p {
     font-family: 'Comfortaa', sans-serif;
     font-weight: normal;
 }
@@ -54,4 +55,11 @@ footer {
     padding: 16px;
     background-color: #3F78BD;
     color: #fff;
+}
+
+.sucess-mensage {
+    background-color: #3F78BD;
+    color: #fff;
+    padding: 6px;
+    display: none;
 }
